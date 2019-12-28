@@ -1,32 +1,4 @@
 {
-  "_args": [
-    [
-      "nsfwjs@2.1.0",
-      "e:\\CODE\\C3C"
-    ]
-  ],
-  "_from": "nsfwjs@2.1.0",
-  "_id": "nsfwjs@2.1.0",
-  "_inBundle": false,
-  "_integrity": "sha512-mRdPUX0aJJu73IMpQ0G9AnYmKV9IVYYE3cJAX/mhOuLqKpTg000SD9GotDQmyNSGTKSUdp5Gr5CbDVrIovuyWQ==",
-  "_location": "/nsfwjs",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "version",
-    "registry": true,
-    "raw": "nsfwjs@2.1.0",
-    "name": "nsfwjs",
-    "escapedName": "nsfwjs",
-    "rawSpec": "2.1.0",
-    "saveSpec": null,
-    "fetchSpec": "2.1.0"
-  },
-  "_requiredBy": [
-    "/"
-  ],
-  "_resolved": "https://registry.npmjs.org/nsfwjs/-/nsfwjs-2.1.0.tgz",
-  "_spec": "2.1.0",
-  "_where": "e:\\CODE\\C3C",
   "author": {
     "name": "Gant Laborde"
   },
@@ -38,7 +10,7 @@
   },
   "description": "Detect NSFW content client side",
   "devDependencies": {
-    "@tensorflow/tfjs": "^1.1.0",
+    "@tensorflow/tfjs-node": "^1.5.1",
     "@types/jest": "^24.0.6",
     "all-contributors-cli": "^6.1.2",
     "babel-core": "^6.26.0",
@@ -73,7 +45,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/infinitered/nsfwjs.git"
+    "url": "git+https://github.com/lequanglam/nsfwjs.git"
   },
   "scripts": {
     "build": "tsc --skipLibCheck",
