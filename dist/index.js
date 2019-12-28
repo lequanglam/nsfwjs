@@ -36,7 +36,11 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
     }
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-var tf = require("@tensorflow/tfjs-node");
+try {
+    var tf = require("@tensorflow/tfjs-node");
+} catch (ex) {
+    var tf = require("@tensorflow/tfjs");   
+}
 var nsfw_classes_1 = require("./nsfw_classes");
 var SuperGif = require("libgif");
 var BASE_PATH = 'https://s3.amazonaws.com/ir_public/nsfwjscdn/TFJS_nsfw_mobilenet/tfjs_quant_nsfw_mobilenet/';
